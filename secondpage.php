@@ -32,9 +32,7 @@ if ($stmt->execute()) {
   } else {
     echo "Error submitting the form";
   }
-  
 
-// Close the statement and the database connection
 $stmt->close();
 $conn->close();
 ?>
